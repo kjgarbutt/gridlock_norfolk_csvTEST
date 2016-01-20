@@ -123,7 +123,7 @@ public class NorfolkCSVTEST extends SimState	{
     //public void setNumAgents(int n) { if (n > 0) numAgents = n; } 
 
     void addAgents()	{
-    	String filename = "/Users/KJGarbutt/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csvTEST/data/merge1.csv";
+    	String filename = "data/merge1.csv";
 		CSVReader reader;
 		System.out.println();
 		System.out.println("Adding Main agents...");
@@ -148,7 +148,7 @@ public class NorfolkCSVTEST extends SimState	{
     }
     
     void addNGOAgents()	{
-    	String filename1 = "/Users/KJGarbutt/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csvTEST/data/NGO.csv";
+    	String filename1 = "data/NGO.csv";
 		CSVReader reader1;
 		System.out.println();
 		System.out.println("Adding NGO agents...");
@@ -173,7 +173,7 @@ public class NorfolkCSVTEST extends SimState	{
     }
     
     void addElderlyAgents()	{
-    	String filename2 = "/Users/KJGarbutt/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csvTEST/data/Elderly.csv";
+    	String filename2 = "data/Elderly.csv";
 		CSVReader reader2;
 		System.out.println();
 		System.out.println("Adding Elderly agents...");
@@ -198,7 +198,7 @@ public class NorfolkCSVTEST extends SimState	{
     }
     
     void addLimActAgents()	{
-    	String filename3 = "/Users/KJGarbutt/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csvTEST/data/LimitedActions.csv";
+    	String filename3 = "data/LimitedActions.csv";
 		CSVReader reader3;
 		System.out.println();
 		System.out.println("Adding Limited Actions agents...");
